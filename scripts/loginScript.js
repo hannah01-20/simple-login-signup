@@ -1,6 +1,14 @@
 // log-in and sign-up plssss gumana ka TT
 
-const usersList = JSON.parse(localStorage.getItem("listAccounts"));
+let usersList = JSON.parse(localStorage.getItem("listAccounts"));
+
+if(!usersList){
+  usersList = [{
+    name: "admin",
+    username: "admin",
+    password: "admin"
+  }];
+}
 
 // LOGIN FUNCTION
 function login(){
