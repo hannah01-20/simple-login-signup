@@ -1,0 +1,3 @@
+25-11-2023
+
+Hello! This is a simple log-in/sign-up project that I made by myself. I used html, css, and javascript. I just started learning javascript so I made this project to challenge myself and I'm glad I did. Obviously I still need to learn more, I want to add things and I definitely will in the future.
